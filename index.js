@@ -14,5 +14,6 @@ const syncFunc = () => {
 
 asyncFunc();
 console.log("first statement after asyncFunc");
+
 syncFunc();
 console.log("first statement after syncFunc");
